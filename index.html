@@ -12,73 +12,63 @@
     
   </head>
 
-  <div style="
-    position: fixed;
-    bottom: 12px;
-    right: 16px;
-    font-size: 11px;
-    color: #888;
-  ">
-    Website template from
-    <a href="https://jonbarron.info" target="_blank" style="color:#888;">
-      Here
-    </a>.
-  </div>
-
-
-  <body style="padding-bottom:60px;">
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <body>
+    <main class="page-shell">
+    <table class="layout-table"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
+          <table class="header-table"><tbody>
+            <tr>
+              <td class="intro-cell">
+                <p class="name">
                   Lucas (Zekai) Liang
                 </p>
                 <p>
-		I'm a PhD student at University of California, San Diego, advised by <a href="https://yip.eng.ucsd.edu/">Prof. Michael Yip</a>.
-		Prior to that, I received my M.S in Electrical and Computer Engineering degree at UCSD.
+		I'm a PhD student at the University of California, San Diego, advised by <a href="https://yip.eng.ucsd.edu/">Prof. Michael Yip</a>.
+		Prior to that, I received my M.S. in Electrical and Computer Engineering from UCSD.
                 </p>
-                <p style="text-align:center">
-                  <a href="z9liang@ucsd.edu">Email</a> &nbsp;/&nbsp;
+                <p class="contact-links">
+                  <a href="mailto:z9liang@ucsd.edu">Email</a> &nbsp;/&nbsp;
                   <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=0MEuUNQAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=0MEuUNQAAAAJ&amp;hl=en">Scholar</a> &nbsp;/&nbsp;
                   <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://www.linkedin.com/in/lucas-l-b2b772314/">Linkedin</a>
+                  <a href="https://www.linkedin.com/in/lucas-l-b2b772314/">LinkedIn</a>
                 </p>
               </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
+              <td class="profile-cell">
                 <a href="images/lucasliang_new.jpg" style="display:block;width:100%;aspect-ratio:1 / 1;border-radius:50%;overflow:hidden;"><img style="width:136%;height:136%;object-fit:cover;object-position:center 58%;display:block;transform:translate(-10%, -20%);" alt="profile photo" src="images/lucasliang_new.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <table class="section-table"><tbody>
               <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td class="section-content">
                 <h2>Research</h2>
                 <p>
-                  My research lies at the intersection of surgical robotics and computer vision, with a focus on robot learning, state estimation, and 3D reconstruction. I develop algorithms and systems that help robots better perceive and understand surgical scenes, with the goal of making surgery safer and improving patient outcomes. In particular, I am interested in integrating accurate visual perception with robot learning to enable safer and more efficient acquisition of surgical skills. I also explore how general-purpose robots can be integrated into surgical workflows.
+                  My research lies at the intersection of surgical robotics and computer vision, with a focus on robot learning, state estimation, and 3D reconstruction. I develop algorithms and systems that help robots better perceive and understand surgical scenes, with the goal of making surgery safer and improving patient outcomes. In particular, I am interested in integrating accurate visual perception with robot learning to enable safer and more efficient acquisition of surgical skills. I also explore how general-purpose robots can be integrated into surgical workflows to make high-quality healthcare more accessible to broader populations.
                 </p>
                 <p>
-                  Outside of research, I enjoy inventing sugar-free recipes, watching films, and spending time outdoors.
+                  Outside of research, I enjoy sugar-free cooking, films, mixed martial arts, and outdoor activities.
                 </p>
               </td>
             </tr>
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <div class="section-heading">
+            <h2>Publications</h2>
+          </div>
+          <table class="publication-table">
   <tbody>
 
     <!-- Paper 1 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <video autoplay muted loop playsinline preload="auto" poster="images/surgie_nature.png" style="width:210px;display:block;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <video autoplay muted loop playsinline preload="auto" poster="images/surgie_nature.png">
           <source src="videos/Humanoid Performing In-Vivo Surgery.mp4" type="video/mp4">
         </video>
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">In vivo feasibility study of humanoid robots in surgery</span>
         <br>
         <strong>Zekai Liang</strong>, Nikita Thareja, Peihan Zhang, Calvin Joyce, Soofiyan Atar, Florian Richter, Garth Jacobsen, Shanglei Liu, Ryan Broderick, Michael Yip
@@ -92,11 +82,11 @@
     </tr>
 
     <!-- Paper 2 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/lapsurgie.png" style="width:210px;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <img src="images/lapsurgie.png" alt="LapSurgie project preview">
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">LapSurgie: Humanoid Robots Performing Surgery via Teleoperated Handheld Laparoscopy</span>
         <br>
         <strong>Zekai Liang</strong>, Xiao Liang, Soofiyan Atar, Sreyan Das, Zoe Chiu, Peihan Zhang, Florian Richter, Shanglei Liu, Michael C Yip
@@ -111,11 +101,11 @@
     </tr>
 
     <!-- Paper 3 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/tooltracking.jpg" style="width:210px;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <img src="images/tooltracking.jpg" alt="Surgical instrument pose reconstruction preview">
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">Efficient Surgical Robotic Instrument Pose Reconstruction in Real World Conditions Using Unified Feature Detection</span>
         <br>
         <strong>Zekai Liang</strong>, Kazuya Miyata, Xiao Liang, Florian Richter, Michael C Yip
@@ -130,11 +120,11 @@
     </tr>
 
     <!-- Paper 4 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/realtime_tracking.png" style="width:210px;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <img src="images/realtime_tracking.png" alt="Real-time surgical instrument tracking preview">
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">Real-time Rendering-based Surgical Instrument Tracking via Evolutionary Optimization</span>
         <br>
         Hanyang Hu, <strong>Zekai Liang</strong>, Florian Richter, Michael C Yip
@@ -146,11 +136,11 @@
     </tr>
 
     <!-- Paper 5 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/based.png" style="width:210px;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <img src="images/based.png" alt="BASED reconstruction preview">
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">BASED: Bundle-Adjusting Surgical Endoscopic Dynamic Video Reconstruction using Neural Radiance Fields</span>
         <br>
         Shreya Saha, <strong>Zekai Liang</strong>, Shan Lin, Jingpei Lu, Michael Yip, Sainan Liu 
@@ -165,11 +155,11 @@
     </tr>
 
     <!-- Paper 6 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/liang2024Differentiable.jpg" style="width:210px;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <img src="images/liang2024Differentiable.jpg" alt="Differentiable rendering pose estimation preview">
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">Differentiable rendering-based pose estimation for surgical robotic instruments</span>
         <br>
         <strong>Zekai Liang</strong>, Zih-Yun Chiu, Florian Richter, Michael C Yip
@@ -184,11 +174,11 @@
     </tr>
 
     <!-- Paper 7 -->
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/lu2024ctrnet-x.jpg" style="width:210px;">
+    <tr class="publication-row">
+      <td class="publication-media">
+        <img src="images/lu2024ctrnet-x.jpg" alt="CtRNet-X project preview">
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td class="publication-details">
         <span class="papertitle">CtRNet-X: Camera-to-Robot Pose Estimation in Real-world Conditions Using a Single Camera</span>
         <br>
         Jingpei Lu*, <strong>Zekai Liang*</strong>, Tristin Xie, Florian Richter, Shan Lin, Sainan Liu, Michael C Yip
@@ -201,3 +191,12 @@
 
   </tbody>
 </table>
+        </td>
+      </tr>
+    </tbody></table>
+    </main>
+    <footer>
+      Website template adapted from <a href="https://jonbarron.info" target="_blank" rel="noopener noreferrer">Jon Barron</a>.
+    </footer>
+  </body>
+</html>
